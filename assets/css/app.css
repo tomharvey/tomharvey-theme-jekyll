@@ -1,1 +1,146 @@
-app.css
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html, body {
+    height: 98%;
+}
+
+body {
+    font-family: weblysleek_uilight, sans-serif;
+    height:100%;
+    margin:0;
+    padding:0;
+    line-height: 1.2em;
+}
+
+h1, h2, h3, h4, h5, a, p {
+    color: #6c6c6c;
+    margin-bottom: 0;
+    line-height: 1.6em;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left-col,
+.right-col {
+    display: block;
+    height: 100%;
+    overflow-y: scroll;
+    float: left;
+    width: 50%;
+}
+
+#identity-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+#identity {
+    max-width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 100px 10px 40px 10px;
+    background: rgba(10,10,10,0.2)
+}
+
+#social_badges {
+    margin-top: 20px;
+}
+
+#social_badges li {
+    display: inline;
+    margin: 0 3px;
+}
+
+#post_index {
+    padding: 50px 100px 50px 10px;
+}
+
+#post_index li {
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post-subtitle {
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.post-date {
+    float: right;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+a.post-link {
+    text-decoration: none;
+}
+
+a.post-link:hover h2 {
+    text-decoration: underline;
+}
