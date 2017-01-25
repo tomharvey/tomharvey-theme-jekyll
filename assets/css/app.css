@@ -74,6 +74,18 @@ p {
     padding: 0 10px;
 }
 
+pre.highlight {
+    background-color: #3f3f3f;
+    color: #6c6c6c;
+    font-family: Menlo, Monaco, 'Courier New', monospace;
+    font-size: 12px;
+    max-width: 100ex;
+    overflow-x: auto;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 3px;
+}
+
 .clearfix:after {
     content: "";
     display: table;
