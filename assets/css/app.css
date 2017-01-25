@@ -125,6 +125,29 @@ pre.highlight {
     margin: 0 3px;
 }
 
+.pager {
+    padding: 25px 100px 25px 10px;
+}
+.pager li {
+    padding: 10px 5px;
+}
+
+.pager li a {
+    text-decoration: none;
+}
+
+.pager li a:hover {
+    text-decoration: underline;
+}
+
+.pager li.previous {
+    float: left;
+}
+
+.pager li.next {
+    float: right;
+}
+
 #post_index {
     padding: 50px 100px 50px 10px;
 }
